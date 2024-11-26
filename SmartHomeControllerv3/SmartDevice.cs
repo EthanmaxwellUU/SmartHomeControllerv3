@@ -49,6 +49,7 @@ namespace SmartHomeController
             Console.WriteLine($"{deviceName} with device ID {DeviceID} is now ON");
         }
 
+
         public void TurnOff()
         {
             Status = false;
